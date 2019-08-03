@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Spring Boot Thymeleaf Hello World Example</title>
+
+    <link rel="stylesheet" th:href="@{webjars/bootstrap/4.2.1/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/css/main.css}"/>
+
+</head>
+
+	<title>BitCoin Result Fetch</title>
+</head>
+
+<body>
+	<h2>Please Enter Details to Fetch</h2>
+	<form method="post" action="getData">
+		
+		Enter From Date(ddmmyyyy) : <input type="text" name="fromDate" /> 
+		
+		Enter To Date (ddmmyyyy) : <input type="text" name="toDate" /> 
+		
+		Enter Currecny : <input type="text" name="currecny" /> 
+		
+		
+	</form>
+</body>
+
+</html>
